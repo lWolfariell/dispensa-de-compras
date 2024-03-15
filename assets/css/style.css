@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.cabecalho {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cabecalho h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+
+/* body */
+
+
+.main {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.lista_despensa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100vw;
+    justify-content: center;
+}
+
+
+#card_produto {
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    height: 15rem;
+    max-height: 300px;
+    border: 1px solid black;
+    margin: 5px 0px;
+    
+    /* text */
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 300;
+    /* -------- */
+}
+
+img {
+    width: inherit;
+    height: calc(inherit - 30%);
+    border-bottom: 1px solid black;
+}
